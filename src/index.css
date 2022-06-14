@@ -1,0 +1,28 @@
+.map-container {
+  height: 400px;
+  width: 600px;
+  margin: 10px auto;
+}
+
+.input1 {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.locationList {
+  max-width: 300px;
+  max-height: 500px;
+  overflow: auto;
+}
+.locationList div {
+  border: 2px solid green;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainDiv {
+  display: flex;
+}
