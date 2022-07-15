@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import findip from './findip';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ3Jhdml0eWxpZ2h0IiwiYSI6ImNsMWhudmZoeTA1YjgzanJwNjA0OGhzMDYifQ.GP1hiJYg5clpdGSgYmpx9w';
+mapboxgl.accessToken = "put your mapboxgl token here"
 
 export default function App() {
   const mapContainer = useRef(null);
