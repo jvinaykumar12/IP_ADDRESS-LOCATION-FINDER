@@ -1,6 +1,0 @@
-db.users.find({debt:{$le:400}})
-
-db.users.find({age:{$le:300,$ge:100},namedf:"test"})
-
-db.users.find({$expr:{$le:["$debt","$balance"]}})
-db.users.find({age:{$le:4},nadme:"dsf"})
